@@ -1,0 +1,131 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Poppins";
+}
+img{
+    max-width: 100%;
+}
+.nav-content{
+    background-color: black;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    margin: 2px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.logo {
+    width: 90px;
+}
+.items {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 200;
+}
+
+.button-container {
+    width: 13%;
+    display: flex;
+    align-items: center;
+}
+
+.langauge {
+    font-weight: 200;
+}
+.btn{
+    margin-left: 25%;
+    background-image: url('./Assets/Icons/btn-pink-bg.svg');
+    background-color: black;
+    border: none;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    color: #FFFF;
+    font-weight: 200;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-left:55px;
+}
+
+.heading {
+    padding-right: 36%;
+    font-size: 70px;
+    font-family: 'Montserrat' ;
+    font-weight: 400;
+}
+
+.paragraph {
+    padding-right:62% ;
+    font-weight: 200;
+}
+
+.hero-button{
+    display: flex;
+    flex-direction: row;
+    margin: 4% 0% 4% 0%;
+}
+
+.hero-btn {
+    background-image: url('./Assets/Icons/btn-pink-bg.svg');
+    background-color: black;
+    border: none;
+    background-repeat: no-repeat;
+    background-position-x:left;
+    color: #FFFF;
+    font-weight: 200;
+    font-size: medium;
+    padding: 0% 2% 0% 2%;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
+.analysis {
+    display: flex;
+    align-items: center;
+}
+
+h1 .ative-user{
+    width: 50;
+    font-size: 100px;
+}
+
+.plus {
+    margin-left: 1%;
+}
+
+.vector {
+}
+
+
+
+
+
+
+.front-card {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+}
+/* 
+<div class="analysis">
+                <h1 class="active-user">42k</h1> 
+                <h1 class="plus">+</h1> 
+                <h1 class="message">Happy Active User</h1> 
+                <img src="./Assets/Icons/Vector 402.svg" alt="vector" class="vector">
+                <h1 class="active-user">12k</h1> 
+                <h1 class="plus">+</h1> 
+                <h1 class="message">Year Experience</h1> 
+            </div> */
