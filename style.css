@@ -7,7 +7,7 @@ img{
     max-width: 100%;
 }
 .nav-content{
-    background-color: black;
+    background-color: #151515;
     color: #FFFF;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ img{
 .btn{
     margin-left: 25%;
     background-image: url('./Assets/Icons/btn-pink-bg.svg');
-    background-color: black;
+    background-color: #151515;
     border: none;
     background-repeat: no-repeat;
     background-position-x:left;
@@ -80,7 +80,7 @@ img{
 
 .hero-btn {
     background-image: url('./Assets/Icons/btn-pink-bg.svg');
-    background-color: black;
+    background-color: #151515;
     border: none;
     background-repeat: no-repeat;
     background-position-x:left;
@@ -97,35 +97,100 @@ img{
     align-items: center;
 }
 
-h1 .ative-user{
-    width: 50;
-    font-size: 100px;
+.active-user{
+    width: 7%;
+    font-size: 35px;
+    font-weight: 400;
+}
+.experience-user{
+    width: 7%;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.active-message{
+    width: 8%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.experience-message{
+    width: 8%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.vector{
+    width: 0.1%;
+    margin:0px 30px 0px 20px;
 }
 
 .plus {
-    margin-left: 1%;
+    color: #F637EC;
+    font-size: 30px;
 }
-
-.vector {
-}
-
-
-
-
-
 
 .front-card {
     position: absolute;
-    width: 50%;
-    left: 50%;
+    width: 51%;
+    left: 42%;
 }
-/* 
-<div class="analysis">
-                <h1 class="active-user">42k</h1> 
-                <h1 class="plus">+</h1> 
-                <h1 class="message">Happy Active User</h1> 
-                <img src="./Assets/Icons/Vector 402.svg" alt="vector" class="vector">
-                <h1 class="active-user">12k</h1> 
-                <h1 class="plus">+</h1> 
-                <h1 class="message">Year Experience</h1> 
-            </div> */
+
+.back-card{
+    position: absolute;
+    width: 51%;
+    left: 30%;
+    top: 1%;
+}
+
+.logo-container{
+    height: 20vh;
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {    
+    width: 15%;
+}
+
+.sevice {
+    background-color: #151515;
+    height: 100vh;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-text {
+    display: flex;
+    justify-content: space-between;
+    margin:2px 55px;
+    align-items: center;
+}
+
+.left-side-text{
+    width: 60%;
+}
+
+.left-text {
+    font-size: 70px;
+    font-weight: 400;
+    font-family:'Montserrat';
+}
+
+.transitions{
+    color:#F637EC;
+}
+.right-text {
+    font-size: 22px;
+    font-weight: 300;
+    color: #6C6C6C;
+}
+
+.right-side-text{
+    width: 50%;
+}
+.service-cards {
+    display: flex;
+}
